@@ -7,14 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3952E5B71DF869390019DF1C /* PerJobViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3952E5B61DF869390019DF1C /* PerJobViewController.swift */; };
+		3991DB4A1DF8EEE5002070B0 /* ToJobSearchSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DB491DF8EEE5002070B0 /* ToJobSearchSegue.swift */; };
+		3991DB4E1DF9FC89002070B0 /* ToPerJobSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3991DB4D1DF9FC89002070B0 /* ToPerJobSegue.swift */; };
 		39BE42CC1DF4DB1500B2733B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE42CB1DF4DB1500B2733B /* AppDelegate.swift */; };
 		39BE42CE1DF4DB1500B2733B /* JobsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE42CD1DF4DB1500B2733B /* JobsViewController.swift */; };
 		39BE42D31DF4DB1500B2733B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BE42D11DF4DB1500B2733B /* Main.storyboard */; };
 		39BE42D51DF4DB1500B2733B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39BE42D41DF4DB1500B2733B /* Assets.xcassets */; };
 		39BE42D81DF4DB1500B2733B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39BE42D61DF4DB1500B2733B /* LaunchScreen.storyboard */; };
+		39BE42E21DF7812800B2733B /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE42E11DF7812800B2733B /* Helper.swift */; };
+		39BE42E41DF781E800B2733B /* JobSearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE42E31DF781E800B2733B /* JobSearchViewController.swift */; };
+		39BE42E61DF7B1D000B2733B /* FilterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39BE42E51DF7B1D000B2733B /* FilterViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3952E5B61DF869390019DF1C /* PerJobViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PerJobViewController.swift; sourceTree = "<group>"; };
+		3991DB491DF8EEE5002070B0 /* ToJobSearchSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToJobSearchSegue.swift; sourceTree = "<group>"; };
+		3991DB4D1DF9FC89002070B0 /* ToPerJobSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ToPerJobSegue.swift; sourceTree = "<group>"; };
 		39BE42C81DF4DB1500B2733B /* ezMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ezMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		39BE42CB1DF4DB1500B2733B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		39BE42CD1DF4DB1500B2733B /* JobsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobsViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +31,9 @@
 		39BE42D41DF4DB1500B2733B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39BE42D71DF4DB1500B2733B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39BE42D91DF4DB1500B2733B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39BE42E11DF7812800B2733B /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Helper.swift; sourceTree = "<group>"; };
+		39BE42E31DF781E800B2733B /* JobSearchViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JobSearchViewController.swift; sourceTree = "<group>"; };
+		39BE42E51DF7B1D000B2733B /* FilterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FilterViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				39BE42D41DF4DB1500B2733B /* Assets.xcassets */,
 				39BE42D61DF4DB1500B2733B /* LaunchScreen.storyboard */,
 				39BE42D91DF4DB1500B2733B /* Info.plist */,
+				39BE42E11DF7812800B2733B /* Helper.swift */,
+				39BE42E31DF781E800B2733B /* JobSearchViewController.swift */,
+				39BE42E51DF7B1D000B2733B /* FilterViewController.swift */,
+				3952E5B61DF869390019DF1C /* PerJobViewController.swift */,
+				3991DB491DF8EEE5002070B0 /* ToJobSearchSegue.swift */,
+				3991DB4D1DF9FC89002070B0 /* ToPerJobSegue.swift */,
 			);
 			path = ezMoney;
 			sourceTree = "<group>";
@@ -137,8 +155,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				39BE42E41DF781E800B2733B /* JobSearchViewController.swift in Sources */,
 				39BE42CC1DF4DB1500B2733B /* AppDelegate.swift in Sources */,
+				3952E5B71DF869390019DF1C /* PerJobViewController.swift in Sources */,
 				39BE42CE1DF4DB1500B2733B /* JobsViewController.swift in Sources */,
+				3991DB4E1DF9FC89002070B0 /* ToPerJobSegue.swift in Sources */,
+				39BE42E21DF7812800B2733B /* Helper.swift in Sources */,
+				3991DB4A1DF8EEE5002070B0 /* ToJobSearchSegue.swift in Sources */,
+				39BE42E61DF7B1D000B2733B /* FilterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +324,7 @@
 				39BE42DE1DF4DB1500B2733B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
